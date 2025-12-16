@@ -64,7 +64,7 @@ ENV CHROME_FLAGS="--no-sandbox --disable-dev-shm-usage --disable-gpu --headless=
 ENV PATH="$PATH:/home/tester/OBISAutomationSuite/venv/bin:/home/tester/.local/bin:/usr/bin:/usr/bin/google-chrome"
 
 # Clone OBISAutomationSuite
-RUN git clone https://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:x-oauth-basic@github.com/NomadQA/OBISAutomationSuite.git
+RUN git clone https://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:x-oauth-basic@github.com/NomadQA/OBISAutomationSuite.git
 
 # Install OBIS Automation Suite
 RUN cd /home/tester/OBISAutomationSuite \
